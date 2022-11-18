@@ -74,7 +74,8 @@ ul li a {
 
 .container1,
 .container2,
-.container3 {
+.container3,
+.container4 {
   margin: 0;
   padding: 0 15em;
   flex: 1;
@@ -119,6 +120,7 @@ ul li a {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
+  padding-bottom: 25px;
 }
 
 .container2 h2 {
@@ -152,6 +154,32 @@ ul li a {
 
 .box .paragraph {
   margin-top: 8px;
+}
+
+/* Container 2 styles */
+
+.container3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container3 p {
+  font-size: 36px;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.container3 .quote-author {
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: end;
+  padding: 5px;
 }
 
 /* Footer styles */
